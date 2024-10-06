@@ -1,50 +1,50 @@
 [
   {
     "title": "ALL YOU CAN TUPPER",
-    "imageSrc": "projects/AllYouCanTupper.png",
+    "imageSrc": "src/assets/projects/AllYouCanTupper.png",
     "description": "All you can tupper is a web app for sharing and requesting food. Users can post available food with pick-up details, and others can request and enjoy it. The App is a group project created during the bootcamp in IRONHACK",
     "skills": ["JavaScript", "HTML", "CSS", "Express.js", "Node.js", "MongoDB"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "deployment": "https://www.example.com",
+    "source": "https://github.com/VSCOrg/All-You-Can-Tupper"
   },
   {
     "title": "KIDDIE TASKS HEROES",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "src/assets/projects/KiddieTaskHero.png",
     "description": "Kiddie Tasks Heroes is a web app that helps families manage tasks, specifically teaching children about family responsibilities. The App is a group project created during the bootcamp in IRONHACK",
     "skills": ["JavaScript","HTML", "CSS", "Express.js", "MongoDB", "Node.js", "React.js"],
-    "demo": "https://magnificent-gelato-243613.netlify.app/login",
-    "source": "https://www.github.com"
+    "deployment": "https://magnificent-gelato-243613.netlify.app/login",
+    "source": ["https://github.com/vicrafsim/Project-3-Client", "https://github.com/vicrafsim/project-3-server"]
   },
   {
     "title": "EXTINCTION",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "src/assets/projects/Extinction.png",
     "description": "**Extinction** is a platform-style video game featuring a group of dinosaurs trying to escape from meteorites. The game is an individual project created during the bootcamp at Ironhack",
     "skills": ["HTML", "CSS", "JavaScript","DOM manipulation", "Object-Oriented Programming (OOP)" ],
-    "demo": "https://simozan.github.io/EXTINCTION/",
-    "source": "https://www.github.com"
+    "deployment": "https://simozan.github.io/EXTINCTION/",
+    "source": "https://github.com/simozan/EXTINCTION"
   },
   {
     "title": "NATOURS",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "src/assets/projects/Natours.png",
     "description": "Natours is a web application developed in an advanced CSS and Sass course. It features a responsive and user-friendly design, using Sass for better CSS organization. NPM handles dependencies and automates tasks, while SVG graphics ensure high-quality visuals.",
-    "skills": ["HTML", "CSS", "JavaScript", "SASS", "Node.js" ],
-    "demo": "https://natours-wheat-five.vercel.app/#section-tours",
-    "source": "https://www.github.com"
+    "skills": ["HTML", "CSS", "SASS", "Node.js" ],
+    "deployment": "https://natours-wheat-five.vercel.app/#section-tours",
+    "source": "https://github.com/simozan/starter"
   },
   {
     "title": "TRILLO",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "src/assets/projects/Trillo.png",
     "description": "Trillo is a responsive web app from the 'Advanced CSS and Sass' course. It uses Flexbox for an efficient, flexible design and Sass for better CSS management. NPM handles dependencies and task automation, while SVG graphics offer scalable, high-quality visuals.",
-    "skills": ["HTML", "CSS", "JavaScript", "SASS", "Node.js"],
-    "demo": "https://main--trillosz.netlify.app/#",
-    "source": "https://www.github.com"
+    "skills": ["HTML", "CSS", "SASS", "Node.js"],
+    "deployment": "https://main--trillosz.netlify.app/#",
+    "source": "https://github.com/simozan/Trillo"
   },
   {
     "title": "NEXTER",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "src/assets/projects/Nexter.png",
     "description": "Nexter is a responsive web application created as part of the 'Advanced CSS and Sass' online course. It utilizes Flexbox layouts and the Grid for a flexible and efficient design. The project employs Sass for improved CSS management, with NPM handling dependencies and task automation.",
-    "skills": ["HTML", "CSS", "JavaScript", "SASS", "Node.js" ],
-    "demo": "https://nextersz.netlify.app/",
-    "source": "https://www.github.com"
+    "skills": ["HTML", "CSS", "SASS", "Node.js" ],
+    "deployment": "https://nextersz.netlify.app/",
+    "source": "https://github.com/simozan/Nexter"
   }
 ]
