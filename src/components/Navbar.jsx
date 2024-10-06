@@ -7,7 +7,7 @@ export const Navbar = () => {
   const location = useLocation();
   const isActive = (path) => location.pathname === path;
   return (
-    <div>
+    <div className="nav-main">
       <Link to="/">
         <button className={isActive("/") ? "active-btn" : "btn"}>Home</button>
       </Link>
