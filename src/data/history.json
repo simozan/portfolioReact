@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Full Stack Developer",
+    "organisation": "Lyrasense",
+    "startDate": "Feb, 2024",
+    "endDate": "June, 2024",
+    "experiences": [
+      "Collaborated in the creation of a prototype web application aimed at enhancing efficiency for sustainability-focused companies",
+      "Utilized Supabase as the database for the web application.",
+      "Developed a REST API for data management using Node.js.",
+      "Contributed to front-end development using React (Typescript), Remix and Tailwind CSS",
+      "Collaborated effectively within a team environment"
+    ],
+    "location": "Munich (remote)"
+  },
+  {
+    "role": "Architect",
+    "organisation": "Estudi Francesc Pons",
+    "startDate": "Apr, 2017",
+    "endDate": "Sep, 2023",
+    "experiences": [
+      "Spearheaded high‑end projects both nationally and internationally, showcasing strong problem‑solving skills and timely project completion.",
+      "Led project teams, demonstrating effective management skills and ensuring seamless coordination among team members.",
+      "Maintained close collaboration with stakeholders, suppliers, and contractors, enhancing communication and project efficiency.",
+      "Contributed to the successful completion of numerous high‑profile projects, positively impacting the firm’s reputation."
+    ],
+    "location": "Barcelona"
+  }
+]

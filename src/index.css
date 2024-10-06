@@ -1,21 +1,24 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-a {
-  text-decoration: none !important;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom,
+      rgba(78, 155, 161, 255),
+      rgba(47, 55, 80, 255));
+      min-height: 100vh;
 }
 
-form {
-  max-width: 400px;
-  margin: 20px auto;
-}
 
-.search-bar {
-  margin-bottom: 50px;
-}
 
-.btn-round {
-  margin: 20px;
+h1,
+h2,
+h3 {
+  font-family: 'Yeseva One', cursive;
 }
