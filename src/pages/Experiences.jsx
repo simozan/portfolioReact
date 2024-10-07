@@ -8,10 +8,12 @@ export const Experiences = () => {
     <div>
       <Navbar />
       <section className='main margin-top-50'>
-      <h1 className="main-title">Experiences</h1>
+      <h1 className="main-title margin-bottom-35">Experiences</h1>
+      <div className="general-container">
       {experienceData.map((experience, index) => {
         return <ExperienceCard key={index} experience={experience} />;
       })}
+      </div>
       </section>
     </div>
   );

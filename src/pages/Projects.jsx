@@ -9,10 +9,12 @@ export const Projects = () => {
     <>
       <Navbar />
       <section className="main margin-top-50">
-        <h1 className="main-title">Projects</h1>
-        {projectData.map((eachProject, index) => {
-          return <ProjectCard key={index} project={eachProject} />;
-        })}
+        <h1 className="main-title margin-bottom-35">Projects</h1>
+        <div className="project-general-container">
+          {projectData.map((project, index) => {
+            return <ProjectCard key={index} project={project} />;
+          })}
+        </div>
       </section>
     </>
   );

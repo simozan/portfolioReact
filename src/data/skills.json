@@ -12,11 +12,19 @@
     "imageSrc": "skills/figma.png"
   },
   {
+    "title": "TypeScript",
+    "imageSrc": "skills/figma.png"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Express.js",
     "imageSrc": "skills/node.png"
   },
   {

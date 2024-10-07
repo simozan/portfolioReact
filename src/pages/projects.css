@@ -10,3 +10,10 @@
 .light-blue{
     background-color: rgba(192, 223, 253, 255);
 }
+.project-general-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}

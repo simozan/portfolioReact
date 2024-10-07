@@ -1,0 +1,49 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    color: rgba(252, 238, 171, 255);
+
+}
+
+.profile-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.skills-container {
+    margin-top: 15px;
+    margin-bottom: 11px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    color: rgba(252, 238, 171, 255);
+}
+
+.skills {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 15px;
+    list-style: none;
+    color: rgba(252, 238, 171, 255);
+
+}
+.aboutItem{
+    list-style: none;
+    padding: 10px;
+}
+
+.aboutItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 15px;
+}
+.about-title{
+    color: rgba(252, 238, 171, 255);
+
+}
