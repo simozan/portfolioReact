@@ -20,7 +20,7 @@ export const Navbar = () => {
       <Link to="/projects">
       <button className={isActive("/projects") ? "active-btn" : "btn"}>Projects</button>
       </Link>
-      <button className="btn">Contact</button>
+      {/* <button className="btn">Contact</button> */}
     </div>
   );
 };
