@@ -13,11 +13,11 @@ export const About = () => {
       <section className="main margin-top-50">
         <h1 className="main-title margin-bottom-35">I'm Simone</h1>
         <div className="main-container">
-          <img
+          {/* <img
             className="profile-img"
-            src="src/assets/a977c9a3-ba86-4d8a-939a-53d040a29f9b.JPG"
+            src="../assets/hero/simo.png"
             alt="prifile pic"
-          />
+          /> */}
           <ul className="aboutItems">
             <li className="aboutItem">
              
@@ -37,13 +37,13 @@ export const About = () => {
               </div>
             </li>
             <li className="aboutItem">
-              <div className="aboutItemText">
+              {/* <div className="aboutItemText">
                 <h3>Salesforce</h3>
                 <p>
                   I have designed multiple landing pages and have created design
                   system as well
                 </p>
-              </div>
+              </div> */}
             </li>
           </ul>
         </div>
