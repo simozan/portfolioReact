@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
-import PopUp from "./Popup";
+import PopUp from "./PopUp";
 
 export const Navbar = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
