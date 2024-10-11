@@ -5,7 +5,7 @@
     "description": "All you can tupper is a web app for sharing and requesting food. Users can post available food with pick-up details, and others can request and enjoy it. The App is a group project created during the bootcamp in IRONHACK",
     "skills": ["JavaScript", "HTML", "CSS", "Express.js", "Node.js", "MongoDB"],
     "deployment": "https://www.example.com",
-    "source": "https://github.com/VSCOrg/All-You-Can-Tupper"
+    "source": "https://all-you-c-tupper.adaptable.app"
   },
   {
     "title": "KIDDIE TASKS HEROES",
