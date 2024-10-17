@@ -13,21 +13,21 @@ const PopUp = ({ isOpen, onClose }) => {
         <h2>Feel free to reach out!</h2>
         <div className="popup-options">
           <div className="popup-option">
-            <img src="src/assets/contact/emailIcon.png" 
+            <img src="./src/assets/contact/emailIcon.png" 
             alt="Email icon" />
             <a className="popup-link"
             href="mailto:simone.zanni.87@gmail.com">simone.zanni.87@gmail.com</a>
           </div>
           <div className="popup-option">
             <img
-              src="src/assets/contact/linkedinIcon.png"
+              src="/Users/simonezanni/Desktop/portfolioReact/src/assets/contact/githubIcon.png"
               alt="LinkedIn icon"
             />
             <a className="popup-link"
             href="https://www.linkedin.com/in/simozan">www.linkedin.com/in/simozan</a>
           </div>
           <div className="popup-option">
-          <img src="src/assets/contact/githubIcon.png" alt="Github icon" />
+          <img src="./assets/contact/githubIcon.png" alt="Github icon" />
           <a className="popup-link"
           href="https://github.com/simozan">github.com/simozan</a>
           </div>
