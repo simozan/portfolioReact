@@ -12,12 +12,12 @@ export const About = () => {
       <Navbar />
       <section className="main margin-top-50">
         <h1 className="main-title margin-bottom-35">I'm Simone</h1>
-        {/* <div className="main-container"> */}
-          {/* <img
+        <div className="main-container">
+          <img
             className="profile-img"
-            src="../assets/hero/simo.png"
+            src="src/assets/hero/simo.jpg"
             alt="prifile pic"
-          /> */}
+          />
           <ul className="aboutItems">
             <li className="aboutItem">
              
@@ -42,7 +42,7 @@ export const About = () => {
               </div>
             </li> */}
           </ul>
-        {/* </div> */}
+        </div>
         <div>
           <div>
             <h3 className="about-title">Skills</h3>

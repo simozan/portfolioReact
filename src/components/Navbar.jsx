@@ -30,11 +30,11 @@ export const Navbar = () => {
             Projects
           </button>
         </Link>
-        {/* <button className="btn" onClick={() => setIsPopupOpen(true)}>
+        <button className="btn" onClick={() => setIsPopupOpen(true)}>
           Contact
-        </button> */}
+        </button>
       </div>
-      {/* <PopUp isOpen={isPopupOpen} onClose={() => setIsPopupOpen(false)} /> */}
+      <PopUp isOpen={isPopupOpen} onClose={() => setIsPopupOpen(false)} />
     </>
   );
 };

@@ -1,5 +1,5 @@
-import React from 'react';
-import './PopUp.css';
+import React from "react";
+import "./PopUp.css";
 
 const PopUp = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -7,15 +7,30 @@ const PopUp = ({ isOpen, onClose }) => {
   return (
     <div className="popup-overlay" onClick={onClose}>
       <div className="popup-container" onClick={(e) => e.stopPropagation()}>
-        <button className="close-btn" onClick={onClose}>X</button>
-        <h2>Hi!</h2>
-        <p>I'm here to help you with any questions you might have.</p>
-        <p>How can I help you today?</p>
+        <button className="close-btn" onClick={onClose}>
+          X
+        </button>
+        <h2>Feel free to reach out!</h2>
         <div className="popup-options">
-          <button>Looking for your old portfolio</button>
-          <button>Just saying hello!</button>
-          <button>Interested in mentorship</button>
-          <button>We'd like to hire you</button>
+          <div className="popup-option">
+            <img src="src/assets/contact/emailIcon.png" 
+            alt="Email icon" />
+            <a className="popup-link"
+            href="mailto:simone.zanni.87@gmail.com">simone.zanni.87@gmail.com</a>
+          </div>
+          <div className="popup-option">
+            <img
+              src="src/assets/contact/linkedinIcon.png"
+              alt="LinkedIn icon"
+            />
+            <a className="popup-link"
+            href="https://www.linkedin.com/in/simozan">www.linkedin.com/in/simozan</a>
+          </div>
+          <div className="popup-option">
+          <img src="src/assets/contact/githubIcon.png" alt="Github icon" />
+          <a className="popup-link"
+          href="https://github.com/simozan">github.com/simozan</a>
+          </div>
         </div>
       </div>
     </div>
@@ -23,3 +38,29 @@ const PopUp = ({ isOpen, onClose }) => {
 };
 
 export default PopUp;
+
+{
+  /* <footer id="contact" className={styles.container}>
+<div className={styles.text}>
+  <h2>Contact</h2>
+  <p>Feel free to reach out!</p>
+</div>
+<ul className={styles.links}>
+  <li className={styles.link}>
+    <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+    <a href="mailto:myemail@email.com">myemail@email.com</a>
+  </li>
+  <li className={styles.link}>
+    <img
+      src={getImageUrl("contact/linkedinIcon.png")}
+      alt="LinkedIn icon"
+    />
+    <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+  </li>
+  <li className={styles.link}>
+    <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+    <a href="https://www.github.com/myname">github.com/myname</a>
+  </li>
+</ul>
+</footer> */
+}

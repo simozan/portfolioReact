@@ -4,7 +4,7 @@
     flex-direction: row;
     margin-bottom: 25px;
     width: 80%;
-    padding: 20px;
+    padding: 2rem;
     color: rgba(252, 238, 171, 255);
     border-radius: 30px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -17,11 +17,11 @@
 }
 
 .experience-title {
-    font-size: 35px;
+    font-size: 3.5rem;
 }
 
 .experience-date {
-    margin-top: 16px;
+    margin-top: 1.6rem;
 }
 
 .experience-bullets-container {

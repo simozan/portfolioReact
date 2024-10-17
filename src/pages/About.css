@@ -6,41 +6,40 @@
 
 }
 
-/* .profile-img {
-    width: 350px;
-    height: 350px;
+.profile-img {
+    width: 22rem;
+    height: 22rem;
     object-fit: cover;
     border-radius: 50%;
-} */
+}
 
 .skills-container {
-    margin-top: 15px;
-    margin-bottom: 11px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 1.5rem;
     justify-content: center;
     color: rgba(252, 238, 171, 255);
 }
 
 .skills {
     background-color: rgba(255, 255, 255, 0.2);
-    padding: 10px;
-    border-radius: 15px;
+    padding: 1.5rem;
+    border-radius: 12px;
     list-style: none;
     color: rgba(252, 238, 171, 255);
 
 }
 .aboutItem{
     list-style: none;
-    padding: 10px; 
+    padding: 2rem; 
     background-color: rgba(188, 86, 55, 255);
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
     width: 80%;
-    padding: 20px;
     color: rgba(252, 238, 171, 255);
-    border-radius: 30px;
+    border-radius: 12px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -48,10 +47,26 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px;
+    padding: 2rem;
     
 }
 .about-title{
     color: rgba(252, 238, 171, 255);
 
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 15rem; /* Make the image smaller on smaller screens */
+        height: 15rem;
+    }
+
+    .aboutItem {
+        width: 90%; /* Increase width to fill more space on smaller screens */
+    }
 }

@@ -11,7 +11,7 @@
   }
   
   .popup-container {
-    background-color: white;
+    /* background-color: white; */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -19,6 +19,12 @@
     width: 90%;
     text-align: center;
     position: relative;
+    background-color: rgba(188, 86, 55, 255);
+    color: rgba(252, 238, 171, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .close-btn {
@@ -39,8 +45,23 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+ 
   
   .popup-options button:hover {
     background-color: #e0e0e0;
   }
   
+  .popup-option{
+    margin-top: 1.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 0.8em;
+    padding: 0.5em;
+  }
+  .popup-link{
+    color: rgba(252, 238, 171, 255);
+    text-decoration: none;
+  }

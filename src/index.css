@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 10px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -13,8 +17,8 @@ body {
       rgba(78, 155, 161, 255),
       rgba(47, 55, 80, 255));
       min-height: 100vh;
+      font-size: 1.6rem;
 }
-
 
 
 h1,
