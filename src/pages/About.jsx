@@ -1,6 +1,8 @@
 import React from "react";
 import { Navbar } from "../components/Navbar";
 import "./About.css";
+import profilePic from '../assets/hero/simo.jpg';
+
 
 import skillsData from "../data/skills.json";
 
@@ -15,7 +17,7 @@ export const About = () => {
         <div className="main-container">
           <img
             className="profile-img"
-            src="src/assets/hero/simo.jpg"
+            src={profilePic}
             alt="prifile pic"
           />
           <ul className="aboutItems">
