@@ -1,5 +1,8 @@
 import React from "react";
 import "./PopUp.css";
+import emailIcon from '../assets/contact/emailIcon.png';
+import linkedinIcon from '../assets/contact/linkedinIcon.png';
+import githubIcon from '../assets/contact/githubIcon.png';
 
 const PopUp = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -13,21 +16,21 @@ const PopUp = ({ isOpen, onClose }) => {
         <h2>Feel free to reach out!</h2>
         <div className="popup-options">
           <div className="popup-option">
-            <img src="./src/assets/contact/emailIcon.png" 
+            <img src={emailIcon}
             alt="Email icon" />
             <a className="popup-link"
             href="mailto:simone.zanni.87@gmail.com">simone.zanni.87@gmail.com</a>
           </div>
           <div className="popup-option">
             <img
-              src="/Users/simonezanni/Desktop/portfolioReact/src/assets/contact/githubIcon.png"
+              src={linkedinIcon} 
               alt="LinkedIn icon"
             />
             <a className="popup-link"
             href="https://www.linkedin.com/in/simozan">www.linkedin.com/in/simozan</a>
           </div>
           <div className="popup-option">
-          <img src="./assets/contact/githubIcon.png" alt="Github icon" />
+          <img src={githubIcon} alt="Github icon" />
           <a className="popup-link"
           href="https://github.com/simozan">github.com/simozan</a>
           </div>
